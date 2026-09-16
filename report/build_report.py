@@ -777,7 +777,8 @@ def add_field_end(paragraph) -> None:
 
 def appendix_blocks() -> list[Block]:
     blocks = [Block("h1", "Appendix A: Source Code"),
-              Block("paragraph", "The complete C++ implementation. It compiles without warnings "
+              Block("paragraph", "The complete C++ implementation, which is also available at "
+                                 "github.com/imranneta5555/DSA. It compiles without warnings "
                                  "with the command below, which builds the demonstration program:"),
               Block("code", "clang++ -std=c++17 -Wall -Wextra -Werror -pedantic \\\n    main.cpp linked_list.cpp -o demo")]
     for title, path in APPENDIX_SOURCES:
