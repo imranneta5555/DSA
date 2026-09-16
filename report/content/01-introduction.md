@@ -6,6 +6,6 @@ This report addresses the task set in the assignment brief. Given a list pointed
 
 The work was implemented in C++17. The language was chosen because its raw pointers make every step of the algorithm visible: Head, New and Temp are genuine memory addresses, `nullptr` plays the role of Λ, and cells are created and released explicitly with `new` and `delete` (Stroustrup, 2013).
 
-The report follows the five requirements of the brief. Section 2 creates a list of twelve cells. Section 3 describes the processes and techniques used by the insertion algorithm. Section 4 documents every variable, pointer and command, and Section 5 explains the logic, including its edge cases. Section 6 presents and explains the flowchart. Section 7 summarises the testing and Section 8 concludes. The full source code and program output are given in the appendices.
+Sections 2 to 6 follow the five requirements of the brief in order: creating the list, the processes and techniques, the documentation of components, the logic and the flowchart. Section 7 summarises the testing, Section 8 concludes, and the appendices give the full source code and program output.
 
 In the pseudocode, Info(P) and Link(P) mean the Info and Link fields of the cell whose address is held in P, and ← means assignment. In C++ these are written `P->Info`, `P->Link` and `=`.
