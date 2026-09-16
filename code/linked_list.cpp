@@ -72,8 +72,10 @@ bool insertAtEnd(Cell*& Head, Cell* New) {
     Cell* Temp = Head;
     while (true) {
         if (Temp == New) {
-            return false;       // New is already in this list; linking it again
-        }                       // would create a cycle, so refuse
+            return false;       // New is already in this list. Re-linking it
+        }                       // would cut the list short and strand the
+                                // cells after it, or loop the last cell back
+                                // onto itself, so refuse.
         if (Temp->Link == nullptr) {
             break;              // Temp's Link is Λ: Temp is the last cell
         }
