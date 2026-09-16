@@ -2,9 +2,9 @@
 
 ## 6.1 The flowchart
 
-Figure 6 presents the insertion algorithm as a flowchart drawn with the symbols defined in ISO 5807 (International Organization for Standardization, 1985). Rounded terminals mark the start and each possible end; rectangles are processes, here assignments; diamonds are decisions, each with a Yes and a No exit; and arrowed flow lines show the order of execution. A filled junction point marks where the loop returns. Every symbol is labelled S1 to S15 so that it can be matched to the pseudocode and the C++ code in Table 7.
-
 ![Figure 6 — Flowchart of the InsertAtEnd algorithm. The main path runs down the centre, the cases that end early branch to the right, and the traversal loop returns along the left to the junction point above S9.](flowchart.png)
+
+Figure 6 presents the insertion algorithm as a flowchart drawn with the symbols defined in ISO 5807 (International Organization for Standardization, 1985). Rounded terminals mark the start and each possible end; rectangles are processes, here assignments; diamonds are decisions, each with a Yes and a No exit; and arrowed flow lines show the order of execution. A filled junction point marks where the loop returns. Every symbol is labelled S1 to S15 so that it can be matched to the pseudocode and the C++ code in Table 7.
 
 ## 6.2 Explanation of each step
 
