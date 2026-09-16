@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" font-family="'Times New Roman', Times, serif">
+<defs><marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#111111"/></marker><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#8a8f96"/></marker><marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#a3261d"/></marker></defs>
+<rect width="880" height="250" fill="white"/>
+<text x="8" y="22" font-size="16" text-anchor="start" fill="#111111">Without the guard, if New pointed at x<tspan baseline-shift="-4" font-size="11">6</tspan>, a cell already in the list:</text>
+<text x="8" y="84.0" font-size="16" text-anchor="start" fill="#111111">Head</text>
+<circle cx="54" cy="78.0" r="3.5" fill="white" stroke="#111111" stroke-width="1.5"/>
+<line x1="58" y1="78.0" x2="82" y2="78.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="84" y="60" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="134" y="60" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="109.0" y="84.0" font-size="17" text-anchor="middle" fill="#111111">10</text>
+<circle cx="151.0" cy="78.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="126.0" y="50" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">1</tspan></text>
+<line x1="156.0" y1="78.0" x2="196" y2="78.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<text x="216" y="84.0" font-size="22" text-anchor="middle" fill="#111111">…</text>
+<line x1="236" y1="78.0" x2="270" y2="78.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="272" y="60" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="322" y="60" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="297.0" y="84.0" font-size="17" text-anchor="middle" fill="#111111">50</text>
+<circle cx="339.0" cy="78.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="314.0" y="50" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">5</tspan></text>
+<line x1="344.0" y1="78.0" x2="400" y2="78.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="402" y="60" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="452" y="60" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="427.0" y="84.0" font-size="17" text-anchor="middle" fill="#111111">60</text>
+<text x="469.0" y="85.0" font-size="19" text-anchor="middle" fill="#a3261d" font-weight="bold">Λ</text>
+<text x="444.0" y="50" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">6</tspan></text>
+<text x="506" y="76.0" font-size="15" text-anchor="start" fill="#a3261d" font-style="italic">Link(New) ← <tspan font-style="normal">Λ</tspan> cuts the list here:</text>
+<text x="506" y="95.0" font-size="15" text-anchor="start" fill="#a3261d" font-style="italic">only 6 cells stay reachable from Head</text>
+<rect x="84" y="186" width="50" height="36" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<rect x="134" y="186" width="34" height="36" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<text x="109.0" y="210.0" font-size="17" text-anchor="middle" fill="#8a8f96">70</text>
+<circle cx="151.0" cy="204.0" r="4" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<text x="126.0" y="242" font-size="15" text-anchor="middle" fill="#8a8f96" font-style="italic">x<tspan baseline-shift="-4" font-size="11">7</tspan></text>
+<line x1="156.0" y1="204.0" x2="196" y2="204.0" stroke="#8a8f96" stroke-width="1.6" marker-end="url(#arrow-grey)"/>
+<text x="216" y="210.0" font-size="22" text-anchor="middle" fill="#8a8f96">…</text>
+<line x1="236" y1="204.0" x2="400" y2="204.0" stroke="#8a8f96" stroke-width="1.6" marker-end="url(#arrow-grey)"/>
+<rect x="402" y="186" width="50" height="36" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<rect x="452" y="186" width="34" height="36" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<text x="427.0" y="210.0" font-size="17" text-anchor="middle" fill="#8a8f96">110</text>
+<circle cx="469.0" cy="204.0" r="4" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<text x="444.0" y="242" font-size="15" text-anchor="middle" fill="#8a8f96" font-style="italic">x<tspan baseline-shift="-4" font-size="11">11</tspan></text>
+<line x1="474.0" y1="204.0" x2="530" y2="204.0" stroke="#8a8f96" stroke-width="1.6" marker-end="url(#arrow-grey)"/>
+<rect x="532" y="186" width="50" height="36" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<rect x="582" y="186" width="34" height="36" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<text x="557.0" y="210.0" font-size="17" text-anchor="middle" fill="#8a8f96">120</text>
+<circle cx="599.0" cy="204.0" r="4" fill="white" stroke="#8a8f96" stroke-width="1.6"/>
+<text x="574.0" y="242" font-size="15" text-anchor="middle" fill="#8a8f96" font-style="italic">x<tspan baseline-shift="-4" font-size="11">12</tspan></text>
+<path d="M604.0,204.0 H650 V130 H444 V100" fill="none" stroke="#a3261d" stroke-width="2.2" stroke-dasharray="5 4" marker-end="url(#arrow-accent)"/>
+<text x="660" y="202.0" font-size="15" text-anchor="start" fill="#a3261d" font-style="italic">Link(Temp) ← New:</text>
+<text x="660" y="221.0" font-size="15" text-anchor="start" fill="#a3261d" font-style="italic">x<tspan baseline-shift="-4" font-size="11">7</tspan>–x<tspan baseline-shift="-4" font-size="11">12</tspan> now stranded</text>
+</svg>

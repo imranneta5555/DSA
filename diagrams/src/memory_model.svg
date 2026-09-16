@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" font-family="'Times New Roman', Times, serif">
+<defs><marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#111111"/></marker><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#8a8f96"/></marker><marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#a3261d"/></marker></defs>
+<rect width="880" height="392" fill="white"/>
+<rect x="16" y="40" width="240" height="342" fill="#f6f6f4" stroke="#c8ccd2" stroke-width="1"/>
+<text x="136" y="28" font-size="15" text-anchor="middle" fill="#8a8f96" font-style="italic">Stack: pointer variables (8 bytes each)</text>
+<rect x="300" y="40" width="566" height="342" fill="#f6f6f4" stroke="#c8ccd2" stroke-width="1"/>
+<text x="583" y="28" font-size="15" text-anchor="middle" fill="#8a8f96" font-style="italic">Heap: cells allocated with new (16 bytes each)</text>
+<rect x="40" y="82.0" width="196" height="44" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="52" y="110.0" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Head</text>
+<text x="226" y="110.0" font-size="15" text-anchor="end" fill="#111111">0x1036f5b70</text>
+<line x1="236" y1="104.0" x2="468" y2="104.0" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
+<text x="830" y="76" font-size="15" text-anchor="end" fill="#111111">x<tspan baseline-shift="-4" font-size="11">1</tspan>  at  0x1036f5b70</text>
+<rect x="470" y="84" width="90.0" height="40" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="515.0" y="110" font-size="16" text-anchor="middle" fill="#111111">10</text>
+<rect x="560.0" y="84" width="90.0" height="40" fill="#ebebe7" stroke="#111111" stroke-width="1.5"/>
+<rect x="650.0" y="84" width="180.0" height="40" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="740.0" y="110" font-size="16" text-anchor="middle" fill="#111111">0x1036f5900</text>
+<rect x="40" y="200.0" width="196" height="44" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="52" y="228.0" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Temp</text>
+<text x="226" y="228.0" font-size="15" text-anchor="end" fill="#111111">0x1036f59e0</text>
+<line x1="236" y1="222.0" x2="468" y2="222.0" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
+<text x="830" y="194" font-size="15" text-anchor="end" fill="#111111">x<tspan baseline-shift="-4" font-size="11">12</tspan>  at  0x1036f59e0</text>
+<rect x="470" y="202" width="90.0" height="40" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="515.0" y="228" font-size="16" text-anchor="middle" fill="#111111">120</text>
+<rect x="560.0" y="202" width="90.0" height="40" fill="#ebebe7" stroke="#111111" stroke-width="1.5"/>
+<rect x="650.0" y="202" width="180.0" height="40" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="740.0" y="228" font-size="16" text-anchor="middle" fill="#a3261d">0x1036f59f0</text>
+<rect x="40" y="298.0" width="196" height="44" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="52" y="326.0" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">New</text>
+<text x="226" y="326.0" font-size="15" text-anchor="end" fill="#111111">0x1036f59f0</text>
+<line x1="236" y1="320.0" x2="468" y2="320.0" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
+<text x="830" y="292" font-size="15" text-anchor="end" fill="#111111">x<tspan baseline-shift="-4" font-size="11">13</tspan>  at  0x1036f59f0</text>
+<rect x="470" y="300" width="90.0" height="40" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="515.0" y="326" font-size="16" text-anchor="middle" fill="#111111">130</text>
+<rect x="560.0" y="300" width="90.0" height="40" fill="#ebebe7" stroke="#111111" stroke-width="1.5"/>
+<rect x="650.0" y="300" width="180.0" height="40" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="740.0" y="326" font-size="16" text-anchor="middle" fill="#111111">Λ</text>
+<text x="650" y="164" font-size="16" text-anchor="middle" fill="#8a8f96">⋮   cells x2 to x11   ⋮</text>
+<path d="M740.0,242 V266 H515.0 V298" fill="none" stroke="#a3261d" stroke-width="2.2" marker-end="url(#arrow-accent)"/>
+<text x="470.0" y="356" font-size="13" text-anchor="middle" fill="#8a8f96">0</text>
+<text x="560.0" y="356" font-size="13" text-anchor="middle" fill="#8a8f96">4</text>
+<text x="650.0" y="356" font-size="13" text-anchor="middle" fill="#8a8f96">8</text>
+<text x="830.0" y="356" font-size="13" text-anchor="middle" fill="#8a8f96">16</text>
+<text x="515.0" y="374" font-size="13" text-anchor="middle" fill="#8a8f96">Info (int)</text>
+<text x="605.0" y="374" font-size="13" text-anchor="middle" fill="#8a8f96">padding</text>
+<text x="740.0" y="374" font-size="13" text-anchor="middle" fill="#8a8f96">Link (Cell*)</text>
+</svg>

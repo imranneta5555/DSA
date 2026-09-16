@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" font-family="'Times New Roman', Times, serif">
+<defs><marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#111111"/></marker><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#8a8f96"/></marker><marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#a3261d"/></marker></defs>
+<rect width="560" height="340" fill="white"/>
+<text x="8" y="22" font-size="16" text-anchor="start" fill="#111111">(a)  Before: Head = Λ, so there is no last cell</text>
+<text x="8" y="74.0" font-size="16" text-anchor="start" fill="#111111">Head</text>
+<circle cx="54" cy="68.0" r="3.5" fill="white" stroke="#111111" stroke-width="1.5"/>
+<line x1="58" y1="68.0" x2="108" y2="68.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<text x="124" y="75.0" font-size="19" text-anchor="middle" fill="#111111">Λ</text>
+<rect x="300" y="50" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="350" y="50" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="325.0" y="74.0" font-size="17" text-anchor="middle" fill="#111111">130</text>
+<text x="367.0" y="75.0" font-size="19" text-anchor="middle" fill="#111111">Λ</text>
+<text x="342.0" y="40" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">13</tspan></text>
+<text x="342.0" y="144" font-size="15" text-anchor="middle" fill="#111111">New</text>
+<line x1="342.0" y1="128" x2="342.0" y2="90" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<line x1="8" y1="168" x2="552" y2="168" stroke="#d6d9dd" stroke-width="1"/>
+<text x="8" y="194" font-size="16" text-anchor="start" fill="#111111">(b)  After: Link(New) ← Λ, then Head ← New</text>
+<text x="8" y="246.0" font-size="16" text-anchor="start" fill="#a3261d">Head</text>
+<circle cx="54" cy="240.0" r="3.5" fill="white" stroke="#a3261d" stroke-width="1.5"/>
+<line x1="58" y1="240.0" x2="82" y2="240.0" stroke="#a3261d" stroke-width="1.6" marker-end="url(#arrow-accent)"/>
+<rect x="84" y="222" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="134" y="222" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="109.0" y="246.0" font-size="17" text-anchor="middle" fill="#111111">130</text>
+<text x="151.0" y="247.0" font-size="19" text-anchor="middle" fill="#111111">Λ</text>
+<text x="126.0" y="212" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">13</tspan></text>
+<text x="126.0" y="316" font-size="15" text-anchor="middle" fill="#111111">New</text>
+<line x1="126.0" y1="300" x2="126.0" y2="262" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+</svg>

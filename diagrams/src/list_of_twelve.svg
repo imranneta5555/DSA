@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" font-family="'Times New Roman', Times, serif">
+<defs><marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#111111"/></marker><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#8a8f96"/></marker><marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#a3261d"/></marker></defs>
+<rect width="880" height="250" fill="white"/>
+<text x="109.0" y="46" font-size="14" text-anchor="middle" fill="#8a8f96">Info</text>
+<text x="151.0" y="46" font-size="14" text-anchor="middle" fill="#8a8f96">Link</text>
+<text x="8" y="82.0" font-size="16" text-anchor="start" fill="#111111">Head</text>
+<circle cx="54" cy="76.0" r="3.5" fill="white" stroke="#111111" stroke-width="1.5"/>
+<line x1="58" y1="76.0" x2="82" y2="76.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="84" y="58" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="134" y="58" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="109.0" y="82.0" font-size="17" text-anchor="middle" fill="#111111">10</text>
+<circle cx="151.0" cy="76.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="126.0" y="114" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">1</tspan></text>
+<line x1="156.0" y1="76.0" x2="212" y2="76.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="214" y="58" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="264" y="58" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="239.0" y="82.0" font-size="17" text-anchor="middle" fill="#111111">20</text>
+<circle cx="281.0" cy="76.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="256.0" y="114" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">2</tspan></text>
+<line x1="286.0" y1="76.0" x2="342" y2="76.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="344" y="58" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="394" y="58" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="369.0" y="82.0" font-size="17" text-anchor="middle" fill="#111111">30</text>
+<circle cx="411.0" cy="76.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="386.0" y="114" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">3</tspan></text>
+<line x1="416.0" y1="76.0" x2="472" y2="76.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="474" y="58" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="524" y="58" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="499.0" y="82.0" font-size="17" text-anchor="middle" fill="#111111">40</text>
+<circle cx="541.0" cy="76.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="516.0" y="114" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">4</tspan></text>
+<line x1="546.0" y1="76.0" x2="602" y2="76.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="604" y="58" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="654" y="58" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="629.0" y="82.0" font-size="17" text-anchor="middle" fill="#111111">50</text>
+<circle cx="671.0" cy="76.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="646.0" y="114" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">5</tspan></text>
+<line x1="676.0" y1="76.0" x2="732" y2="76.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="734" y="58" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="784" y="58" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="759.0" y="82.0" font-size="17" text-anchor="middle" fill="#111111">60</text>
+<circle cx="801.0" cy="76.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="776.0" y="114" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">6</tspan></text>
+<path d="M806.0,76.0 H850 V144 H40 V200.0 H82" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="84" y="182" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="134" y="182" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="109.0" y="206.0" font-size="17" text-anchor="middle" fill="#111111">70</text>
+<circle cx="151.0" cy="200.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="126.0" y="238" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">7</tspan></text>
+<line x1="156.0" y1="200.0" x2="212" y2="200.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="214" y="182" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="264" y="182" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="239.0" y="206.0" font-size="17" text-anchor="middle" fill="#111111">80</text>
+<circle cx="281.0" cy="200.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="256.0" y="238" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">8</tspan></text>
+<line x1="286.0" y1="200.0" x2="342" y2="200.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="344" y="182" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="394" y="182" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="369.0" y="206.0" font-size="17" text-anchor="middle" fill="#111111">90</text>
+<circle cx="411.0" cy="200.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="386.0" y="238" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">9</tspan></text>
+<line x1="416.0" y1="200.0" x2="472" y2="200.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="474" y="182" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="524" y="182" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="499.0" y="206.0" font-size="17" text-anchor="middle" fill="#111111">100</text>
+<circle cx="541.0" cy="200.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="516.0" y="238" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">10</tspan></text>
+<line x1="546.0" y1="200.0" x2="602" y2="200.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="604" y="182" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="654" y="182" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="629.0" y="206.0" font-size="17" text-anchor="middle" fill="#111111">110</text>
+<circle cx="671.0" cy="200.0" r="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="646.0" y="238" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">11</tspan></text>
+<line x1="676.0" y1="200.0" x2="732" y2="200.0" stroke="#111111" stroke-width="1.6" marker-end="url(#arrow-ink)"/>
+<rect x="734" y="182" width="50" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<rect x="784" y="182" width="34" height="36" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="759.0" y="206.0" font-size="17" text-anchor="middle" fill="#111111">120</text>
+<text x="801.0" y="207.0" font-size="19" text-anchor="middle" fill="#111111">Λ</text>
+<text x="776.0" y="238" font-size="15" text-anchor="middle" fill="#111111" font-style="italic">x<tspan baseline-shift="-4" font-size="11">12</tspan></text>
+</svg>
