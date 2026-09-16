@@ -1,0 +1,4 @@
+code/build/
+out/preview/
+.DS_Store
+__pycache__/
