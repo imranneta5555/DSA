@@ -18,6 +18,9 @@ Table: Table 3 — Variables and pointers
 | New | `Cell*` | Stack | Holds the address of the cell to be inserted. The algorithm reads and writes that cell through New but never changes New itself. |
 | Temp | `Cell*` | Stack | The traversal pointer. It starts with the value of Head and moves one cell at a time until it holds the address of the last cell. |
 | Tail | `Cell*` | Stack | Used only in createList, to hold the address of the most recently created cell. |
+| P, called `cell` in C++ | `Cell*` | Stack | In createList, holds the address of the cell just allocated until it is linked in. |
+| v, called `value` in C++; `info` | `int` | Stack | The value for the cell being created. createList passes it to createCell, which stores it in Info. |
+| next | `Cell*` | Stack | In deleteList, saves Link(Head) before that cell is deleted, so the rest of the list stays reachable. |
 | Info | `int`, 4 bytes | Heap, offset 0 in each cell | The data value of a cell. The insertion never reads or changes it. |
 | Link | `Cell*`, 8 bytes | Heap, offset 8 in each cell | The address of the next cell, or Λ. It is the only field the insertion changes. |
 | Λ | `nullptr` | Not stored separately | The null pointer, meaning "no cell". It marks the end of a list and an empty list. |
@@ -38,8 +41,11 @@ Table: Table 4 — Instructions and commands
 | `P->Info`, `P->Link` | Access to a field through a pointer | Reads or writes a field of the cell at address P; written Info(P) and Link(P) in the pseudocode |
 | `=` | Assignment, written ← in the pseudocode | Copies a value or an address into a variable or field |
 | `==`, `!=` | Comparison | Compares two addresses without changing memory |
-| `if` | Selection | Chooses which statements run, based on a comparison |
+| `if`, `else` | Selection | Chooses which statements run; createList uses `else` to link every cell after the first |
 | `while (true)` with `break` | A loop whose exit test is inside it | Repeats the traversal; `break` leaves the loop once the last cell is found |
+| `while (Head != nullptr)` | A loop tested before each pass | deleteList repeats it until every cell has been released |
+| `for (int value : values)` | Range-based loop | Visits each value once, so createList allocates exactly one cell per value |
+| `sizeof`, `offsetof` | Size and position operators, fixed when compiled | Measure the 16-byte cell and the offsets of Info (0) and Link (8) |
 | `return false`, `return true` | Ends the function with a result | Reports whether New was inserted |
 | `Cell*&` | Reference to a pointer | Lets insertAtEnd assign directly to the caller's Head variable |
 | `throw`, `try`, `catch` | Exception handling | Used by createList to reject a wrong size and to release cells if allocation fails |
