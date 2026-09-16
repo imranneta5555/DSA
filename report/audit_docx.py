@@ -199,7 +199,8 @@ print("British English")
 content = "\n".join(path.read_text(encoding="utf-8") for path in sorted((ROOT / "content").glob("*.md")))
 content = re.sub(r"```.*?```", "", content, flags=re.S)
 content = re.sub(r"`[^`]+`", "", content)
-american = sorted({m.group(0) for m in re.finditer(AMERICAN, content)} - AMERICAN_ALLOWED)
+allowed = {word.lower() for word in AMERICAN_ALLOWED}
+american = sorted({m.group(0) for m in re.finditer(AMERICAN, content) if m.group(0).lower() not in allowed})
 check(not american, "no American spellings in the report text" + (f" ({american})" if american else ""))
 
 print()
