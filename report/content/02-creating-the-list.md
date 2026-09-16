@@ -13,6 +13,8 @@ struct Cell {
 
 Info is an integer holding the value of the cell. Link is a pointer to another Cell, which means it holds that cell's memory address. Because the structure refers to its own type through Link, cells can be chained together. On the 64-bit system used for this work, one Cell occupies 16 bytes: 4 bytes for Info, 4 bytes of padding added by the compiler so that Link starts on an 8-byte boundary, and 8 bytes for Link. These sizes were measured with `sizeof` and `offsetof` rather than assumed (Appendix B).
 
+The list as a whole is reached through one more pointer, declared as `Cell* Head`. Head is not a cell: it is an 8-byte variable holding the address of the first cell, or Λ when the list is empty.
+
 ## 2.2 The list created
 
 The brief requires a list of between 10 and 16 cells. Twelve cells were used, holding the values x1 = 10, x2 = 20 and so on up to x12 = 120, as shown in Figure 1. Twelve was chosen deliberately: after the new cell is inserted the list has thirteen cells, so it stays within the permitted range both before and after the insertion.
