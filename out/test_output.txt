@@ -1,0 +1,14 @@
+  PASS  createList builds twelve cells in order
+  PASS  createList null-terminates the last cell
+  PASS  createList accepts the boundary sizes 10 and 16
+  PASS  createList rejects sizes outside 10-16
+  PASS  insertAtEnd appends to the twelve-cell list
+  PASS  insertAtEnd into an empty list makes New the Head
+  PASS  insertAtEnd into a single-cell list
+  PASS  insertAtEnd rejects a null New
+  PASS  insertAtEnd clears a Link that New arrives with
+  PASS  insertAtEnd refuses a cell already in the list
+  PASS  insertAtEnd repeated insertions keep the list valid
+  PASS  deleteList releases cells and clears Head
+
+12 of 12 tests passed (63 of 63 checks)

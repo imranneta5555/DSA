@@ -1,0 +1,42 @@
+Cell layout in memory
+  sizeof(Cell)         = 16 bytes
+  sizeof(Cell*)        = 8 bytes
+  offsetof(Cell, Info) = 0
+  offsetof(Cell, Link) = 8
+
+Step 1: list created with 12 cells
+Head -> [10|o] -> [20|o] -> [30|o] -> [40|o] -> [50|o] -> [60|o] -> [70|o] -> [80|o] -> [90|o] -> [100|o] -> [110|o] -> [120|Λ]
+  Cell  Address             Info    Link
+  x1    0x1036f5b70         10      0x1036f5900
+  x2    0x1036f5900         20      0x1036f5910
+  x3    0x1036f5910         30      0x1036f5960
+  x4    0x1036f5960         40      0x1036f5970
+  x5    0x1036f5970         50      0x1036f5980
+  x6    0x1036f5980         60      0x1036f5990
+  x7    0x1036f5990         70      0x1036f59a0
+  x8    0x1036f59a0         80      0x1036f59b0
+  x9    0x1036f59b0         90      0x1036f59c0
+  x10   0x1036f59c0         100     0x1036f59d0
+  x11   0x1036f59d0         110     0x1036f59e0
+  x12   0x1036f59e0         120     Λ
+
+Step 2: New cell allocated at 0x1036f59f0 with Info = 130 and Link = Λ
+
+Step 3: insertAtEnd returned true; the list now has 13 cells
+Head -> [10|o] -> [20|o] -> [30|o] -> [40|o] -> [50|o] -> [60|o] -> [70|o] -> [80|o] -> [90|o] -> [100|o] -> [110|o] -> [120|o] -> [130|Λ]
+  Cell  Address             Info    Link
+  x1    0x1036f5b70         10      0x1036f5900
+  x2    0x1036f5900         20      0x1036f5910
+  x3    0x1036f5910         30      0x1036f5960
+  x4    0x1036f5960         40      0x1036f5970
+  x5    0x1036f5970         50      0x1036f5980
+  x6    0x1036f5980         60      0x1036f5990
+  x7    0x1036f5990         70      0x1036f59a0
+  x8    0x1036f59a0         80      0x1036f59b0
+  x9    0x1036f59b0         90      0x1036f59c0
+  x10   0x1036f59c0         100     0x1036f59d0
+  x11   0x1036f59d0         110     0x1036f59e0
+  x12   0x1036f59e0         120     0x1036f59f0
+  x13   0x1036f59f0         130     Λ
+
+Step 4: list deleted; Head is Λ
