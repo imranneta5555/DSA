@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Checks the built report against the formatting rules in the assignment brief.
 
-    ~/.ctf-tools/venv/bin/python3 audit_docx.py [path/to/report.docx]
+    python3 audit_docx.py [path/to/report.docx]
 
 Reads the Word XML directly and resolves style inheritance, so it tests what
 Word will apply rather than what the builder meant to write. Exits 1 on any

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Builds the Unit 3 report as a Word document from the Markdown sources.
 
-Run through the toolchain virtualenv (python-docx):
-    ~/.ctf-tools/venv/bin/python3 build_report.py
+Needs python-docx:
+    python3 build_report.py
 
 Formatting follows the assignment brief: Times New Roman 12 pt, 1.5 line
 spacing, left-aligned paragraphs, A4 portrait, "Page X of Y" in the footer, a

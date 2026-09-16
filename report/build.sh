@@ -3,7 +3,7 @@
 # numbers match the rendered pages. The final render is kept as the PDF copy.
 set -euo pipefail
 cd "$(dirname "$0")"
-PY="$HOME/.ctf-tools/venv/bin/python3"
+PY="${PYTHON:-python3}"   # set PYTHON to use a particular interpreter
 PREVIEW=../out/preview/DSA_Linked_List_Report.pdf
 for pass in 1 2 3 4; do
   "$PY" build_report.py
