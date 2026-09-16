@@ -249,18 +249,30 @@ void deleteList_releasesCellsAndClearsHead() {
 
 int main() {
     const std::vector<std::pair<std::string, std::function<void()>>> tests = {
-        {"createList builds twelve cells in order", createList_buildsTwelveCellsInOrder},
-        {"createList null-terminates the last cell", createList_nullTerminatesTheLastCell},
-        {"createList accepts the boundary sizes 10 and 16", createList_acceptsTheBoundarySizes},
-        {"createList rejects sizes outside 10-16", createList_rejectsSizesOutsideTenToSixteen},
-        {"insertAtEnd appends to the twelve-cell list", insertAtEnd_appendsToTheTwelveCellList},
-        {"insertAtEnd into an empty list makes New the Head", insertAtEnd_intoAnEmptyListMakesNewTheHead},
-        {"insertAtEnd into a single-cell list", insertAtEnd_intoASingleCellList},
-        {"insertAtEnd rejects a null New", insertAtEnd_rejectsANullNew},
-        {"insertAtEnd clears a Link that New arrives with", insertAtEnd_clearsALinkThatNewArrivesWith},
-        {"insertAtEnd refuses a cell already in the list", insertAtEnd_refusesACellAlreadyInTheList},
-        {"insertAtEnd repeated insertions keep the list valid", insertAtEnd_repeatedInsertionsKeepTheListValid},
-        {"deleteList releases cells and clears Head", deleteList_releasesCellsAndClearsHead},
+        {"createList builds twelve cells in order",
+         createList_buildsTwelveCellsInOrder},
+        {"createList null-terminates the last cell",
+         createList_nullTerminatesTheLastCell},
+        {"createList accepts the boundary sizes 10 and 16",
+         createList_acceptsTheBoundarySizes},
+        {"createList rejects sizes outside 10-16",
+         createList_rejectsSizesOutsideTenToSixteen},
+        {"insertAtEnd appends to the twelve-cell list",
+         insertAtEnd_appendsToTheTwelveCellList},
+        {"insertAtEnd into an empty list makes New the Head",
+         insertAtEnd_intoAnEmptyListMakesNewTheHead},
+        {"insertAtEnd into a single-cell list",
+         insertAtEnd_intoASingleCellList},
+        {"insertAtEnd rejects a null New",
+         insertAtEnd_rejectsANullNew},
+        {"insertAtEnd clears a Link that New arrives with",
+         insertAtEnd_clearsALinkThatNewArrivesWith},
+        {"insertAtEnd refuses a cell already in the list",
+         insertAtEnd_refusesACellAlreadyInTheList},
+        {"insertAtEnd repeated insertions keep the list valid",
+         insertAtEnd_repeatedInsertionsKeepTheListValid},
+        {"deleteList releases cells and clears Head",
+         deleteList_releasesCellsAndClearsHead},
     };
 
     int testsFailed = 0;
@@ -275,7 +287,8 @@ int main() {
     }
 
     std::cout << '\n'
-              << tests.size() - static_cast<std::size_t>(testsFailed) << " of " << tests.size()
+              << tests.size() - static_cast<std::size_t>(testsFailed)
+              << " of " << tests.size()
               << " tests passed (" << checksRun - checksFailed << " of " << checksRun
               << " checks)\n";
     return testsFailed == 0 ? 0 : 1;
